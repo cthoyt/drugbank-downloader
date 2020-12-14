@@ -33,7 +33,8 @@ directory.
 
 ## Download the Latest Version
 
-First, you'll have to install `bioversions` with `pip install bioversions`, whose job it is to look up the latest
+First, you'll have to install [`bioversions`](https://github.com/cthoyt/bioversions)
+with `pip install bioversions`, whose job it is to look up the latest
 version of many databases. Then, you can modify the previous code slightly:
 
 ```python
@@ -53,8 +54,8 @@ assert expected_path == path.as_posix()
 
 ## Store in a Different Place
 
-If you want to store the data elsewhere using `pystow` (e.g., in PyOBO I also keep a copy of this file), you can use
-the `prefix` argument.
+If you want to store the data elsewhere using `pystow` (e.g., in [`pyobo`](https://github.com/pyobo/pyobo)
+I also keep a copy of this file), you can use the `prefix` argument.
 
 ```python
 import os
@@ -70,6 +71,9 @@ expected_path = os.path.join(os.path.expanduser('~'), '.data', 'pyobo', 'raw', '
                              'full database.xml.zip')
 assert expected_path == path.as_posix()
 ```
+
+See the `pystow` [documentation](https://github.com/cthoyt/pystow#%EF%B8%8F-configuration) on configuring
+the storage location further.
 
 ## Don't Bother Unpacking - read `full database.xml.zip` Directly
 
