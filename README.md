@@ -1,5 +1,7 @@
 # drugbank_downloader
 
+<a href="https://zenodo.org/badge/latestdoi/321374043"><img src="https://zenodo.org/badge/321374043.svg" alt="DOI"></a>
+
 Don't worry about DrugBank licensing and distribution rules - just use ``drugbank_downloader`` to write code that knows
 how to download it and use it automatically.
 
