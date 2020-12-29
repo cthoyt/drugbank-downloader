@@ -6,10 +6,10 @@ import contextlib
 import logging
 import zipfile
 from pathlib import Path
-from typing import Optional, Sequence
+from typing import Optional, Sequence, Union
 from xml.etree import ElementTree
 
-from pystow import ensure
+from pystow import ensure, get_config
 
 __all__ = [
     'parse_drugbank',
@@ -21,8 +21,8 @@ logger = logging.getLogger(__name__)
 
 
 def parse_drugbank(
-    username: str,
-    password: str,
+    username: Optional[str] = None,
+    password: Optional[str] = None,
     version: Optional[str] = None,
     prefix: Optional[Sequence[str]] = None,
 ) -> ElementTree.Element:
@@ -36,8 +36,8 @@ def parse_drugbank(
 
 @contextlib.contextmanager
 def open_drugbank(
-    username: str,
-    password: str,
+    username: Optional[str] = None,
+    password: Optional[str] = None,
     version: Optional[str] = None,
     prefix: Optional[Sequence[str]] = None,
 ):
@@ -49,10 +49,10 @@ def open_drugbank(
 
 
 def download_drugbank(
-    username: str,
-    password: str,
+    username: Optional[str] = None,
+    password: Optional[str] = None,
     version: Optional[str] = None,
-    prefix: Optional[Sequence[str]] = None,
+    prefix: Union[None, str, Sequence[str]] = None,
 ) -> Path:
     """Download the given version of DrugBank.
 
@@ -81,6 +81,16 @@ def download_drugbank(
 
     if prefix is None:
         prefix = ['drugbank']
+    elif isinstance(prefix, str):
+        prefix = [prefix]
+
+    username = get_config('drugbank', 'username', username)
+    if username is None:
+        raise ValueError('DRUGBANK_USERNAME is not set and `username` was not passed')
+
+    password = get_config('drugbank', 'password', password)
+    if password is None:
+        raise ValueError('DRUGBANK_PASSWORD is not set and `password` was not passed')
 
     return ensure(
         *prefix,
