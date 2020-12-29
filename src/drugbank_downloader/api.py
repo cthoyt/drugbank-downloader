@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+
+"""Implementation of :mod:`drugbank_downloader`."""
+
 import contextlib
 import logging
 import zipfile
@@ -50,7 +54,21 @@ def download_drugbank(
     version: Optional[str] = None,
     prefix: Optional[Sequence[str]] = None,
 ) -> Path:
-    """Download the given version of DrugBank."""
+    """Download the given version of DrugBank.
+
+    :param username:
+        The DrugBank username. If not passed, looks up in the environment
+        ``DRUGBANK_USERNAME``. If not found, raises a ValueError.
+    :param password:
+        The DrugBank password. If not passed, looks up in the environment
+        ``DRUGBANK_PASSWORD``. If not found, raises a ValueError.
+    :param version:
+        The DrugBank version. If not passed, uses :mod:`bioversions` to
+        look up the most recent version.
+    :param prefix:
+        The prefix and subkeys passed to :func:`pystow.ensure` to specify
+        a non-default location to download the data to.
+    """
     if version is None:
         try:
             import bioversions
