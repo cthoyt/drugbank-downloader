@@ -15,7 +15,7 @@ later, but that will cause problems--the code will get executed twice:
 
 import click
 
-from .api import download_drugbank, download_latest_drugbank
+from .api import download_drugbank
 
 
 @click.command()
@@ -23,10 +23,12 @@ from .api import download_drugbank, download_latest_drugbank
 @click.option('--username')
 @click.option('--password')
 def main(version: str, username: str, password: str):
-    if version is not None:
-        path = download_drugbank(version, username, password)
-    else:
-        path = download_latest_drugbank(username, password)
+    """Download DrugBank."""
+    path = download_drugbank(
+        version=version,
+        username=username,
+        password=password,
+    )
     click.echo(path.as_posix())
 
 
