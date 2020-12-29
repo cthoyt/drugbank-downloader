@@ -1,4 +1,6 @@
-# drugbank_downloader
+<h1 align="center">
+    drugbank_downloader
+</h1>
 
 <p align="center">
     <a href="https://pypi.org/project/drugbank_downloader">
