@@ -1,6 +1,19 @@
 # drugbank_downloader
 
-<a href="https://zenodo.org/badge/latestdoi/321374043"><img src="https://zenodo.org/badge/321374043.svg" alt="DOI"></a>
+<p align="center">
+    <a href="https://pypi.org/project/drugbank_downloader">
+        <img alt="PyPI" src="https://img.shields.io/pypi/v/drugbank_downloader" />
+    </a>
+    <a href="https://pypi.org/project/drugbank_downloader">
+        <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/drugbank_downloader" />
+    </a>
+    <a href="https://github.com/cthoyt/drugbank_downloader/blob/main/LICENSE">
+        <img alt="PyPI - License" src="https://img.shields.io/pypi/l/drugbank_downloader" />
+    </a>
+    <a href="https://zenodo.org/badge/latestdoi/321374043">
+        <img src="https://zenodo.org/badge/321374043.svg" alt="DOI" />
+    </a>
+</p>
 
 Don't worry about DrugBank licensing and distribution rules - just use ``drugbank_downloader`` to write code that knows
 how to download it and use it automatically.
