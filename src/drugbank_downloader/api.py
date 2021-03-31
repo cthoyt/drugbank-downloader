@@ -12,6 +12,7 @@ from xml.etree import ElementTree
 from pystow import ensure, get_config
 
 __all__ = [
+    'get_drugbank_root',
     'parse_drugbank',
     'open_drugbank',
     'download_drugbank',
@@ -20,18 +21,29 @@ __all__ = [
 logger = logging.getLogger(__name__)
 
 
-def parse_drugbank(
+def get_drugbank_root(
     username: Optional[str] = None,
     password: Optional[str] = None,
     version: Optional[str] = None,
     prefix: Optional[Sequence[str]] = None,
 ) -> ElementTree.Element:
+    """Download, open, and parse the given version of DrugBank with :class:`xml.etree.ElementTree` then get its root."""
+    element_tree = parse_drugbank(username=username, password=password, version=version, prefix=prefix)
+    return element_tree.getroot()
+
+
+def parse_drugbank(
+    username: Optional[str] = None,
+    password: Optional[str] = None,
+    version: Optional[str] = None,
+    prefix: Optional[Sequence[str]] = None,
+) -> ElementTree.ElementTree:
     """Download, open, and parse the given version of DrugBank with :class:`xml.etree.ElementTree`."""
     with open_drugbank(version=version, username=username, password=password, prefix=prefix) as file:
         logger.info('loading DrugBank XML')
         tree = ElementTree.parse(file)
         logger.info('done parsing DrugBank XML')
-    return tree.getroot()
+    return tree
 
 
 @contextlib.contextmanager

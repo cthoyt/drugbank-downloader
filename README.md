@@ -121,18 +121,29 @@ from drugbank_downloader import open_drugbank
 
 with open_drugbank() as file:
     tree = ElementTree.parse(file)
-root = tree.getroot()
 ```
 
 You don't have time to remember this either. Just use `drugbank_downloader.parse_drugbank()` instead:
 
 ```python
+from xml.etree import ElementTree
 from drugbank_downloader import parse_drugbank
 
-root = parse_drugbank()
+tree = parse_drugbank()
+root = tree.getroot()
 ```
 
-You know everything I can teach you. Please use these tools to do re-usable, reproducible science!
+If your first thing to do to the tree is always to get its root, just use
+`drugbank_downloader.get_drugbank_root()`:
+
+```python
+from drugbank_downloader import get_drugbank_root
+
+root = get_drugbank_root()
+```
+
+You now know everything I can teach you. Please use these tools to do re-usable, reproducible 
+science!
 
 ## Store in a Different Place
 
