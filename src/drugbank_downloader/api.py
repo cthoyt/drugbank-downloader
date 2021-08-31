@@ -96,11 +96,11 @@ def download_drugbank(
     elif isinstance(prefix, str):
         prefix = [prefix]
 
-    username = get_config('drugbank', 'username', username)
+    username = get_config('drugbank', 'username', passthrough=username)
     if username is None:
         raise ValueError('DRUGBANK_USERNAME is not set and `username` was not passed')
 
-    password = get_config('drugbank', 'password', password)
+    password = get_config('drugbank', 'password', passthrough=password)
     if password is None:
         raise ValueError('DRUGBANK_PASSWORD is not set and `password` was not passed')
 
