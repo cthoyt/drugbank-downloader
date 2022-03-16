@@ -1,3 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from .api import download_drugbank, get_drugbank_root, open_drugbank, parse_drugbank
+"""A tool for reproducibly downloading and extracting DrugBank data."""
+
+from .api import (  # noqa:F401
+    download_drugbank,
+    get_drugbank_root,
+    open_drugbank,
+    parse_drugbank,
+)

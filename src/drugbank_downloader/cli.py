@@ -14,23 +14,27 @@ later, but that will cause problems--the code will get executed twice:
 """
 
 import click
+from more_click import verbose_option
 
 from .api import download_drugbank
 
 
 @click.command()
-@click.option('--version')
-@click.option('--username')
-@click.option('--password')
-def main(version: str, username: str, password: str):
+@click.option("--version")
+@click.option("--username")
+@click.option("--password")
+@click.option("-f", "--force", is_flag=True)
+@verbose_option
+def main(version: str, username: str, password: str, force: bool):
     """Download DrugBank."""
     path = download_drugbank(
         version=version,
         username=username,
         password=password,
+        force=force,
     )
     click.echo(path.as_posix())
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
