@@ -6,10 +6,17 @@ import contextlib
 import logging
 import zipfile
 from pathlib import Path
-from typing import Optional, Sequence, Union
-from xml.etree import ElementTree  # noqa:S405
+from typing import TYPE_CHECKING, Optional, Sequence, Union
 
 from pystow import ensure, get_config
+
+try:
+    from lxml import etree as ElementTree  # noqa:S410,N812
+except ImportError:
+    from xml.etree import ElementTree  # noqa:S405
+
+if TYPE_CHECKING:
+    import xml.etree.ElementTree  # noqa:S405
 
 __all__ = [
     "get_drugbank_root",
@@ -26,7 +33,7 @@ def get_drugbank_root(
     password: Optional[str] = None,
     version: Optional[str] = None,
     prefix: Optional[Sequence[str]] = None,
-) -> ElementTree.Element:
+) -> "xml.etree.ElementTree.Element":
     """Download, open, and parse the given version of DrugBank with :class:`xml.etree.ElementTree` then get its root."""
     element_tree = parse_drugbank(
         username=username, password=password, version=version, prefix=prefix
@@ -39,7 +46,7 @@ def parse_drugbank(
     password: Optional[str] = None,
     version: Optional[str] = None,
     prefix: Optional[Sequence[str]] = None,
-) -> ElementTree.ElementTree:
+) -> "xml.etree.ElementTree.ElementTree":
     """Download, open, and parse the given version of DrugBank with :class:`xml.etree.ElementTree`."""
     with open_drugbank(
         version=version, username=username, password=password, prefix=prefix
