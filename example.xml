@@ -1,0 +1,3028 @@
+<!--
+    This example file is derived from DrugBank's full database dump and
+    therefore maintains the Creative Common's Attribution-NonCommercial 4.0 International License.
+-->
+
+<drug type="biotech" created="2015-11-30" updated="2023-01-03">
+    <drugbank-id primary="true">DB10276</drugbank-id>
+    <drugbank-id>DB10303</drugbank-id>
+    <drugbank-id>DB10304</drugbank-id>
+    <drugbank-id>DB10305</drugbank-id>
+    <drugbank-id>DB10306</drugbank-id>
+    <drugbank-id>DB10307</drugbank-id>
+    <name>Rotavirus vaccine</name>
+    <description>Rotavirus commonly infects children and infants causing severe diarrhea and vomiting leading to
+        potentially fatal dehydration.[L1117] Two rotavirus vaccines are available for the prevention of rotavirus
+        gastroenteritis, Rotateq and Rotarix. Rotateq is a live vaccine consisting of 5 reassorted human-bovine viral
+        strains.[L1116] Rotarix is a live attenuated vaccine containing the 89-12 human strain.[Label] Rotavirus
+        vaccines are 90% effective in protecting against severe rotavirus infection.[L1117]
+    </description>
+    <cas-number/>
+    <unii/>
+    <groups>
+        <group>approved</group>
+    </groups>
+    <general-references>
+        <articles/>
+        <textbooks/>
+        <links>
+            <link>
+                <ref-id>L1116</ref-id>
+                <title>Rotateq FDA Label</title>
+                <url>https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aaf3b24e-85fd-43ee-b657-2ee4df312ec3</url>
+            </link>
+            <link>
+                <ref-id>L1117</ref-id>
+                <title>CDC: About Rotavirus</title>
+                <url>https://www.cdc.gov/rotavirus/about/index.html</url>
+            </link>
+        </links>
+        <attachments/>
+    </general-references>
+    <synthesis-reference/>
+    <indication>Rotarix is indicated for prevention of rotavirus gastroenteritis caused by G1, G3, G4, and G9 types in
+        infants aged 6-24 weeks [FDA Label].&#13;
+        &#13;
+        Rotateq is indicated for the prevention of rotavirus gastroenteritis caused by G1, G2, G3, G4, and G9 types in
+        infants aged 6-32 weeks [L1116].
+    </indication>
+    <pharmacodynamics>Rotarix and Rotateq contain live attenuated and live virus respectively. The virus replicates in
+        the intesine and interacts with the patient's immune system to produce immunity [FDA Label, L1116].
+        Seroconversion has been defined as the appearance of anti-rotavirus IgA antibodies at concentrations greater
+        than 20 U/mL post-vaccination in the serum of infants previously negative for rotavirus [FDA Label].
+    </pharmacodynamics>
+    <mechanism-of-action>The exact mechanism specific to the rotavirus vaccines' interaction with the immune system is
+        uncharacterized [FDA Label, L1116].
+    </mechanism-of-action>
+    <toxicity>Rotavirus vaccine may produce severe diarrhea and vomiting as a result of rotavirus infection [FDA Label].
+        Post marketing reports suggest an increased risk of intussusception with rotavirus vaccine but this is
+        unsupported by clinical data.
+    </toxicity>
+    <metabolism/>
+    <absorption/>
+    <half-life>The median duration of viral shedding was observed to be 10 days [FDA Label].</half-life>
+    <protein-binding/>
+    <route-of-elimination/>
+    <volume-of-distribution/>
+    <clearance/>
+    <salts>
+        <salt>
+            <drugbank-id primary="true">DBSALT002547</drugbank-id>
+            <name>Human Rotavirus A type G1P(8) strain RIX4414 live antigen</name>
+            <unii>KZ3L01D2PC</unii>
+            <cas-number/>
+            <inchikey/>
+        </salt>
+        <salt>
+            <drugbank-id primary="true">DBSALT002548</drugbank-id>
+            <name>Human Rotavirus A type G1P7(5) strain WI79 live antigen</name>
+            <unii>3L3RG28B7Q</unii>
+            <cas-number/>
+            <inchikey/>
+        </salt>
+        <salt>
+            <drugbank-id primary="true">DBSALT002549</drugbank-id>
+            <name>Human Rotavirus A type G2P7(5) strain SC2 live antigen</name>
+            <unii>JU499IS53H</unii>
+            <cas-number/>
+            <inchikey/>
+        </salt>
+        <salt>
+            <drugbank-id primary="true">DBSALT002550</drugbank-id>
+            <name>Human Rotavirus A type G3P7(5) strain WI78 live antigen</name>
+            <unii>Z65J02I7CW</unii>
+            <cas-number/>
+            <inchikey/>
+        </salt>
+        <salt>
+            <drugbank-id primary="true">DBSALT002551</drugbank-id>
+            <name>Human Rotavirus A type G4P7(5) strain BRB live antigen</name>
+            <unii>6334XMP4KC</unii>
+            <cas-number/>
+            <inchikey/>
+        </salt>
+        <salt>
+            <drugbank-id primary="true">DBSALT002552</drugbank-id>
+            <name>Human Rotavirus A type G6P1A(8) strain WI79 live antigen</name>
+            <unii>L1977Q86S5</unii>
+            <cas-number/>
+            <inchikey/>
+        </salt>
+    </salts>
+    <synonyms>
+        <synonym language="english" coder="">Rota virus, live attenuated</synonym>
+        <synonym language="english" coder="">Rotavirus vaccine, live, oral</synonym>
+    </synonyms>
+    <products>
+        <product>
+            <name>Rotarix</name>
+            <labeller>GlaxoSmithKline Biologicals SA</labeller>
+            <ndc-id/>
+            <ndc-product-code>58160-805</ndc-product-code>
+            <dpd-id/>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2008-08-01</started-marketing-on>
+            <ended-marketing-on>2009-11-24</ended-marketing-on>
+            <dosage-form>Kit</dosage-form>
+            <strength>1000000 [CCID_50]/1mL</strength>
+            <route>Oral</route>
+            <fda-application-number>BLA125265</fda-application-number>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>US</country>
+            <source>FDA NDC</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>GlaxoSmithKline Biologicals SA</labeller>
+            <ndc-id/>
+            <ndc-product-code>58160-854</ndc-product-code>
+            <dpd-id/>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2011-01-13</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Kit</dosage-form>
+            <strength>1000000 [CCID_50]/1mL</strength>
+            <route>Oral</route>
+            <fda-application-number>BLA125265</fda-application-number>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>US</country>
+            <source>FDA NDC</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxosmithkline Inc</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id>02300591</dpd-id>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2008-12-16</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/1.5mL</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>Canada</country>
+            <source>DPD</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxo Smith Kline Biologicals S.A.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000639</ema-product-code>
+            <ema-ma-number>EU/1/05/330/001</ema-ma-number>
+            <started-marketing-on>2021-02-11</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/ml</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxo Smith Kline Biologicals S.A.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000639</ema-product-code>
+            <ema-ma-number>EU/1/05/330/002</ema-ma-number>
+            <started-marketing-on>2021-02-11</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/ml</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxo Smith Kline Biologicals S.A.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000639</ema-product-code>
+            <ema-ma-number>EU/1/05/330/003</ema-ma-number>
+            <started-marketing-on>2021-02-11</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/ml</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxo Smith Kline Biologicals S.A.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000639</ema-product-code>
+            <ema-ma-number>EU/1/05/330/004</ema-ma-number>
+            <started-marketing-on>2021-02-11</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/ml</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxo Smith Kline Biologicals S.A.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000639</ema-product-code>
+            <ema-ma-number>EU/1/05/330/005</ema-ma-number>
+            <started-marketing-on>2021-02-11</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/ml</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxo Smith Kline Biologicals S.A.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000639</ema-product-code>
+            <ema-ma-number>EU/1/05/330/006</ema-ma-number>
+            <started-marketing-on>2021-02-11</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/ml</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxo Smith Kline Biologicals S.A.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000639</ema-product-code>
+            <ema-ma-number>EU/1/05/330/007</ema-ma-number>
+            <started-marketing-on>2021-02-11</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/ml</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxo Smith Kline Biologicals S.A.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000639</ema-product-code>
+            <ema-ma-number>EU/1/05/330/008</ema-ma-number>
+            <started-marketing-on>2021-02-11</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/ml</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxo Smith Kline Biologicals S.A.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000639</ema-product-code>
+            <ema-ma-number>EU/1/05/330/009</ema-ma-number>
+            <started-marketing-on>2021-02-11</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/ml</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxo Smith Kline Biologicals S.A.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000639</ema-product-code>
+            <ema-ma-number>EU/1/05/330/010</ema-ma-number>
+            <started-marketing-on>2021-02-11</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/ml</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxo Smith Kline Biologicals S.A.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000639</ema-product-code>
+            <ema-ma-number>EU/1/05/330/011</ema-ma-number>
+            <started-marketing-on>2021-02-11</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/ml</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotarix</name>
+            <labeller>Glaxo Smith Kline Biologicals S.A.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000639</ema-product-code>
+            <ema-ma-number>EU/1/05/330/012</ema-ma-number>
+            <started-marketing-on>2021-02-11</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Suspension</dosage-form>
+            <strength>1000000 CCID50/ml</strength>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>RotaTeq</name>
+            <labeller>Merck Sharp &amp; Dohme Llc</labeller>
+            <ndc-id/>
+            <ndc-product-code>0006-4047</ndc-product-code>
+            <dpd-id/>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2006-02-03</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number>BLA125122</fda-application-number>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>US</country>
+            <source>FDA NDC</source>
+        </product>
+        <product>
+            <name>RotaTeq</name>
+            <labeller>Merck Sharp &amp; Dohme Llc</labeller>
+            <ndc-id/>
+            <ndc-product-code>0006-4047</ndc-product-code>
+            <dpd-id/>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2006-02-03</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number>BLA125122</fda-application-number>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>US</country>
+            <source>FDA NDC</source>
+        </product>
+        <product>
+            <name>RotaTeq</name>
+            <labeller>Merck Sharp &amp; Dohme Llc</labeller>
+            <ndc-id/>
+            <ndc-product-code>0006-4047</ndc-product-code>
+            <dpd-id/>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2006-02-03</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number>BLA125122</fda-application-number>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>US</country>
+            <source>FDA NDC</source>
+        </product>
+        <product>
+            <name>RotaTeq</name>
+            <labeller>Merck Sharp &amp; Dohme Llc</labeller>
+            <ndc-id/>
+            <ndc-product-code>0006-4047</ndc-product-code>
+            <dpd-id/>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2006-02-03</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number>BLA125122</fda-application-number>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>US</country>
+            <source>FDA NDC</source>
+        </product>
+        <product>
+            <name>RotaTeq</name>
+            <labeller>Merck Sharp &amp; Dohme Llc</labeller>
+            <ndc-id/>
+            <ndc-product-code>0006-4047</ndc-product-code>
+            <dpd-id/>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2006-02-03</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number>BLA125122</fda-application-number>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>US</country>
+            <source>FDA NDC</source>
+        </product>
+        <product>
+            <name>RotaTeq</name>
+            <labeller>Merck Ltd.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id>02284413</dpd-id>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2006-10-16</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>Canada</country>
+            <source>DPD</source>
+        </product>
+        <product>
+            <name>RotaTeq</name>
+            <labeller>Merck Ltd.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id>02284413</dpd-id>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2006-10-16</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>Canada</country>
+            <source>DPD</source>
+        </product>
+        <product>
+            <name>RotaTeq</name>
+            <labeller>Merck Ltd.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id>02284413</dpd-id>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2006-10-16</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>Canada</country>
+            <source>DPD</source>
+        </product>
+        <product>
+            <name>RotaTeq</name>
+            <labeller>Merck Ltd.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id>02284413</dpd-id>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2006-10-16</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>Canada</country>
+            <source>DPD</source>
+        </product>
+        <product>
+            <name>RotaTeq</name>
+            <labeller>Merck Ltd.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id>02284413</dpd-id>
+            <ema-product-code/>
+            <ema-ma-number/>
+            <started-marketing-on>2006-10-16</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>Canada</country>
+            <source>DPD</source>
+        </product>
+        <product>
+            <name>Rotateq</name>
+            <labeller>Merck Sharp &amp; Dohme B.V.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000669</ema-product-code>
+            <ema-ma-number>EU/1/06/348/001</ema-ma-number>
+            <started-marketing-on>2021-02-10</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotateq</name>
+            <labeller>Merck Sharp &amp; Dohme B.V.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000669</ema-product-code>
+            <ema-ma-number>EU/1/06/348/001</ema-ma-number>
+            <started-marketing-on>2021-02-10</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotateq</name>
+            <labeller>Merck Sharp &amp; Dohme B.V.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000669</ema-product-code>
+            <ema-ma-number>EU/1/06/348/001</ema-ma-number>
+            <started-marketing-on>2021-02-10</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotateq</name>
+            <labeller>Merck Sharp &amp; Dohme B.V.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000669</ema-product-code>
+            <ema-ma-number>EU/1/06/348/001</ema-ma-number>
+            <started-marketing-on>2021-02-10</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotateq</name>
+            <labeller>Merck Sharp &amp; Dohme B.V.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000669</ema-product-code>
+            <ema-ma-number>EU/1/06/348/001</ema-ma-number>
+            <started-marketing-on>2021-02-10</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotateq</name>
+            <labeller>Merck Sharp &amp; Dohme B.V.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000669</ema-product-code>
+            <ema-ma-number>EU/1/06/348/002</ema-ma-number>
+            <started-marketing-on>2021-02-10</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotateq</name>
+            <labeller>Merck Sharp &amp; Dohme B.V.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000669</ema-product-code>
+            <ema-ma-number>EU/1/06/348/002</ema-ma-number>
+            <started-marketing-on>2021-02-10</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotateq</name>
+            <labeller>Merck Sharp &amp; Dohme B.V.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000669</ema-product-code>
+            <ema-ma-number>EU/1/06/348/002</ema-ma-number>
+            <started-marketing-on>2021-02-10</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotateq</name>
+            <labeller>Merck Sharp &amp; Dohme B.V.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000669</ema-product-code>
+            <ema-ma-number>EU/1/06/348/002</ema-ma-number>
+            <started-marketing-on>2021-02-10</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+        <product>
+            <name>Rotateq</name>
+            <labeller>Merck Sharp &amp; Dohme B.V.</labeller>
+            <ndc-id/>
+            <ndc-product-code/>
+            <dpd-id/>
+            <ema-product-code>EMEA/H/C/000669</ema-product-code>
+            <ema-ma-number>EU/1/06/348/002</ema-ma-number>
+            <started-marketing-on>2021-02-10</started-marketing-on>
+            <ended-marketing-on/>
+            <dosage-form>Solution</dosage-form>
+            <strength/>
+            <route>Oral</route>
+            <fda-application-number/>
+            <generic>false</generic>
+            <over-the-counter>false</over-the-counter>
+            <approved>true</approved>
+            <country>EU</country>
+            <source>EMA</source>
+        </product>
+    </products>
+    <international-brands/>
+    <mixtures>
+        <mixture>
+            <name>RotaTeq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>RotaTeq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>RotaTeq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>RotaTeq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>RotaTeq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>RotaTeq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>RotaTeq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>RotaTeq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>RotaTeq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>RotaTeq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>Rotateq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>Rotateq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>Rotateq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>Rotateq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>Rotateq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>Rotateq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>Rotateq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>Rotateq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>Rotateq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+        <mixture>
+            <name>Rotateq</name>
+            <ingredients>Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus vaccine + Rotavirus
+                vaccine
+            </ingredients>
+        </mixture>
+    </mixtures>
+    <packagers/>
+    <manufacturers/>
+    <prices/>
+    <categories>
+        <category>
+            <category>Actively Acquired Immunity</category>
+            <mesh-id/>
+        </category>
+        <category>
+            <category>Antiinfectives for Systemic Use</category>
+            <mesh-id/>
+        </category>
+        <category>
+            <category>Biological Products</category>
+            <mesh-id>D001688</mesh-id>
+        </category>
+        <category>
+            <category>Complex Mixtures</category>
+            <mesh-id>D045424</mesh-id>
+        </category>
+        <category>
+            <category>Live Attenuated Rotavirus Vaccine</category>
+            <mesh-id/>
+        </category>
+        <category>
+            <category>Live Rotavirus Vaccine</category>
+            <mesh-id/>
+        </category>
+        <category>
+            <category>Rota Virus Diarrhea Vaccines</category>
+            <mesh-id/>
+        </category>
+        <category>
+            <category>Vaccines</category>
+            <mesh-id>D014612</mesh-id>
+        </category>
+        <category>
+            <category>Viral Vaccines</category>
+            <mesh-id>D014765</mesh-id>
+        </category>
+    </categories>
+    <affected-organisms/>
+    <dosages>
+        <dosage>
+            <form>Kit</form>
+            <route>Oral</route>
+            <strength>1000000 [CCID_50]/1mL</strength>
+        </dosage>
+        <dosage>
+            <form>Powder, for suspension</form>
+            <route>Oral</route>
+            <strength>1000000 CCID50/ml</strength>
+        </dosage>
+        <dosage>
+            <form>Suspension</form>
+            <route>Oral</route>
+            <strength>1000000 CCID50/ml</strength>
+        </dosage>
+        <dosage>
+            <form>Suspension</form>
+            <route>Oral</route>
+            <strength>1000000 [CCID_50]/1mL</strength>
+        </dosage>
+        <dosage>
+            <form>Suspension</form>
+            <route>Oral</route>
+            <strength>1000000 CCID50/1.5mL</strength>
+        </dosage>
+        <dosage>
+            <form/>
+            <route>Oral</route>
+            <strength/>
+        </dosage>
+        <dosage>
+            <form/>
+            <route>Oral</route>
+            <strength>1.5 ml</strength>
+        </dosage>
+        <dosage>
+            <form>Suspension</form>
+            <route>Oral</route>
+            <strength>1 ml</strength>
+        </dosage>
+        <dosage>
+            <form>Suspension</form>
+            <route>Oral</route>
+            <strength/>
+        </dosage>
+        <dosage>
+            <form>Solution</form>
+            <route>Oral</route>
+            <strength/>
+        </dosage>
+        <dosage>
+            <form>Solution</form>
+            <route>Oral</route>
+            <strength>2210000 unit / dose</strength>
+        </dosage>
+        <dosage>
+            <form>Solution</form>
+            <route>Oral</route>
+            <strength>2 ml</strength>
+        </dosage>
+        <dosage>
+            <form>Suspension</form>
+            <route>Oral</route>
+            <strength/>
+        </dosage>
+    </dosages>
+    <atc-codes>
+        <atc-code code="J07BH01">
+            <level code="J07BH">Rota virus diarrhea vaccines</level>
+            <level code="J07B">VIRAL VACCINES</level>
+            <level code="J07">VACCINES</level>
+            <level code="J">ANTIINFECTIVES FOR SYSTEMIC USE</level>
+        </atc-code>
+    </atc-codes>
+    <ahfs-codes/>
+    <pdb-entries/>
+    <fda-label>//s3-us-west-2.amazonaws.com/drugbank/fda_labels/DB10276.pdf?1514915596</fda-label>
+    <patents/>
+    <food-interactions/>
+    <drug-interactions>
+        <drug-interaction>
+            <drugbank-id>DB00005</drugbank-id>
+            <name>Etanercept</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Etanercept.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00008</drugbank-id>
+            <name>Peginterferon alfa-2a</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Peginterferon alfa-2a.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00011</drugbank-id>
+            <name>Interferon alfa-n1</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Interferon alfa-n1.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00018</drugbank-id>
+            <name>Interferon alfa-n3</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Interferon alfa-n3.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00022</drugbank-id>
+            <name>Peginterferon alfa-2b</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Peginterferon alfa-2b.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00026</drugbank-id>
+            <name>Anakinra</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Anakinra.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00033</drugbank-id>
+            <name>Interferon gamma-1b</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Interferon gamma-1b.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00034</drugbank-id>
+            <name>Interferon alfa-2a</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Interferon alfa-2a.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00041</drugbank-id>
+            <name>Aldesleukin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Aldesleukin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00051</drugbank-id>
+            <name>Adalimumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Adalimumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00056</drugbank-id>
+            <name>Gemtuzumab ozogamicin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Gemtuzumab ozogamicin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00059</drugbank-id>
+            <name>Pegaspargase</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Pegaspargase.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00065</drugbank-id>
+            <name>Infliximab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Infliximab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00068</drugbank-id>
+            <name>Interferon beta-1b</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Interferon beta-1b.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00069</drugbank-id>
+            <name>Interferon alfacon-1</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Interferon alfacon-1.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00072</drugbank-id>
+            <name>Trastuzumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Trastuzumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00073</drugbank-id>
+            <name>Rituximab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Rituximab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00074</drugbank-id>
+            <name>Basiliximab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Basiliximab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00075</drugbank-id>
+            <name>Muromonab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Muromonab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00078</drugbank-id>
+            <name>Ibritumomab tiuxetan</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ibritumomab tiuxetan.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00081</drugbank-id>
+            <name>Tositumomab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Tositumomab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00087</drugbank-id>
+            <name>Alemtuzumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Alemtuzumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00091</drugbank-id>
+            <name>Cyclosporine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Cyclosporine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00092</drugbank-id>
+            <name>Alefacept</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Alefacept.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00095</drugbank-id>
+            <name>Efalizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Efalizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00098</drugbank-id>
+            <name>Antithymocyte immunoglobulin (rabbit)</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Antithymocyte immunoglobulin (rabbit).
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00105</drugbank-id>
+            <name>Interferon alfa-2b</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Interferon alfa-2b.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00108</drugbank-id>
+            <name>Natalizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Natalizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00111</drugbank-id>
+            <name>Daclizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Daclizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00120</drugbank-id>
+            <name>Phenylalanine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Phenylalanine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00188</drugbank-id>
+            <name>Bortezomib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Bortezomib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00242</drugbank-id>
+            <name>Cladribine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Cladribine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00262</drugbank-id>
+            <name>Carmustine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Carmustine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00276</drugbank-id>
+            <name>Amsacrine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Amsacrine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00290</drugbank-id>
+            <name>Bleomycin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Bleomycin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00291</drugbank-id>
+            <name>Chlorambucil</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Chlorambucil.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00293</drugbank-id>
+            <name>Raltitrexed</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Raltitrexed.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00305</drugbank-id>
+            <name>Mitomycin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Mitomycin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00307</drugbank-id>
+            <name>Bexarotene</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Bexarotene.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00309</drugbank-id>
+            <name>Vindesine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Vindesine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00322</drugbank-id>
+            <name>Floxuridine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Floxuridine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00328</drugbank-id>
+            <name>Indomethacin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Indomethacin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00352</drugbank-id>
+            <name>Tioguanine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Tioguanine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00361</drugbank-id>
+            <name>Vinorelbine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Vinorelbine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00380</drugbank-id>
+            <name>Dexrazoxane</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Dexrazoxane.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00398</drugbank-id>
+            <name>Sorafenib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Sorafenib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00428</drugbank-id>
+            <name>Streptozocin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Streptozocin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00432</drugbank-id>
+            <name>Trifluridine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Trifluridine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00441</drugbank-id>
+            <name>Gemcitabine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Gemcitabine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00444</drugbank-id>
+            <name>Teniposide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Teniposide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00445</drugbank-id>
+            <name>Epirubicin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Epirubicin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00446</drugbank-id>
+            <name>Chloramphenicol</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Chloramphenicol.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00480</drugbank-id>
+            <name>Lenalidomide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Lenalidomide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00488</drugbank-id>
+            <name>Altretamine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Altretamine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00495</drugbank-id>
+            <name>Zidovudine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Zidovudine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00515</drugbank-id>
+            <name>Cisplatin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Cisplatin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00526</drugbank-id>
+            <name>Oxaliplatin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Oxaliplatin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00531</drugbank-id>
+            <name>Cyclophosphamide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Cyclophosphamide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00541</drugbank-id>
+            <name>Vincristine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Vincristine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00544</drugbank-id>
+            <name>Fluorouracil</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluorouracil.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00550</drugbank-id>
+            <name>Propylthiouracil</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Propylthiouracil.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00552</drugbank-id>
+            <name>Pentostatin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Pentostatin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00563</drugbank-id>
+            <name>Methotrexate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Methotrexate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00564</drugbank-id>
+            <name>Carbamazepine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Carbamazepine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00570</drugbank-id>
+            <name>Vinblastine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Vinblastine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00601</drugbank-id>
+            <name>Linezolid</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Linezolid.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00619</drugbank-id>
+            <name>Imatinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Imatinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00631</drugbank-id>
+            <name>Clofarabine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Clofarabine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00642</drugbank-id>
+            <name>Pemetrexed</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Pemetrexed.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00688</drugbank-id>
+            <name>Mycophenolate mofetil</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Mycophenolate mofetil.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00694</drugbank-id>
+            <name>Daunorubicin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Daunorubicin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00755</drugbank-id>
+            <name>Tretinoin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Tretinoin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00762</drugbank-id>
+            <name>Irinotecan</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Irinotecan.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00763</drugbank-id>
+            <name>Methimazole</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Methimazole.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00773</drugbank-id>
+            <name>Etoposide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Etoposide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00795</drugbank-id>
+            <name>Sulfasalazine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Sulfasalazine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00851</drugbank-id>
+            <name>Dacarbazine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Dacarbazine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00853</drugbank-id>
+            <name>Temozolomide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Temozolomide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00859</drugbank-id>
+            <name>Penicillamine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Penicillamine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00864</drugbank-id>
+            <name>Tacrolimus</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Tacrolimus.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00877</drugbank-id>
+            <name>Sirolimus</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Sirolimus.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00888</drugbank-id>
+            <name>Mechlorethamine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Mechlorethamine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00928</drugbank-id>
+            <name>Azacitidine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Azacitidine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00958</drugbank-id>
+            <name>Carboplatin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Carboplatin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00970</drugbank-id>
+            <name>Dactinomycin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Dactinomycin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00993</drugbank-id>
+            <name>Azathioprine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Azathioprine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00997</drugbank-id>
+            <name>Doxorubicin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Doxorubicin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01005</drugbank-id>
+            <name>Hydroxyurea</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Hydroxyurea.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01008</drugbank-id>
+            <name>Busulfan</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Busulfan.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01024</drugbank-id>
+            <name>Mycophenolic acid</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Mycophenolic acid.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01030</drugbank-id>
+            <name>Topotecan</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Topotecan.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01033</drugbank-id>
+            <name>Mercaptopurine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Mercaptopurine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01041</drugbank-id>
+            <name>Thalidomide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Thalidomide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01042</drugbank-id>
+            <name>Melphalan</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Melphalan.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01073</drugbank-id>
+            <name>Fludarabine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fludarabine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01097</drugbank-id>
+            <name>Leflunomide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Leflunomide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01099</drugbank-id>
+            <name>Flucytosine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Flucytosine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01101</drugbank-id>
+            <name>Capecitabine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Capecitabine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01168</drugbank-id>
+            <name>Procarbazine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Procarbazine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01169</drugbank-id>
+            <name>Arsenic trioxide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Arsenic trioxide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01177</drugbank-id>
+            <name>Idarubicin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Idarubicin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01181</drugbank-id>
+            <name>Ifosfamide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ifosfamide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01196</drugbank-id>
+            <name>Estramustine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Estramustine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01204</drugbank-id>
+            <name>Mitoxantrone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Mitoxantrone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01206</drugbank-id>
+            <name>Lomustine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Lomustine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01229</drugbank-id>
+            <name>Paclitaxel</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Paclitaxel.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01248</drugbank-id>
+            <name>Docetaxel</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Docetaxel.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01254</drugbank-id>
+            <name>Dasatinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Dasatinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01257</drugbank-id>
+            <name>Eculizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Eculizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01262</drugbank-id>
+            <name>Decitabine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Decitabine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01268</drugbank-id>
+            <name>Sunitinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Sunitinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01280</drugbank-id>
+            <name>Nelarabine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Nelarabine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01281</drugbank-id>
+            <name>Abatacept</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Abatacept.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01423</drugbank-id>
+            <name>Stepronin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Stepronin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01590</drugbank-id>
+            <name>Everolimus</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Everolimus.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01611</drugbank-id>
+            <name>Hydroxychloroquine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Hydroxychloroquine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01816</drugbank-id>
+            <name>Castanospermine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Castanospermine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB02546</drugbank-id>
+            <name>Vorinostat</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Vorinostat.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB02806</drugbank-id>
+            <name>2-Methoxyethanol</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                2-Methoxyethanol.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB03523</drugbank-id>
+            <name>Brequinar</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Brequinar.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB04572</drugbank-id>
+            <name>Thiotepa</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Thiotepa.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB04845</drugbank-id>
+            <name>Ixabepilone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ixabepilone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB04868</drugbank-id>
+            <name>Nilotinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Nilotinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB04951</drugbank-id>
+            <name>Pirfenidone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Pirfenidone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB04956</drugbank-id>
+            <name>Afelimomab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Afelimomab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB05015</drugbank-id>
+            <name>Belinostat</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Belinostat.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB05109</drugbank-id>
+            <name>Trabectedin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Trabectedin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB05258</drugbank-id>
+            <name>Interferon alfa</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Interferon alfa.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB05259</drugbank-id>
+            <name>Glatiramer</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Glatiramer.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB05260</drugbank-id>
+            <name>Gallium nitrate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Gallium nitrate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB05459</drugbank-id>
+            <name>Briakinumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Briakinumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB05472</drugbank-id>
+            <name>Human interferon omega-1</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Human interferon omega-1.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB05676</drugbank-id>
+            <name>Apremilast</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Apremilast.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB05773</drugbank-id>
+            <name>Trastuzumab emtansine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Trastuzumab emtansine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06168</drugbank-id>
+            <name>Canakinumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Canakinumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06273</drugbank-id>
+            <name>Tocilizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Tocilizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06287</drugbank-id>
+            <name>Temsirolimus</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Temsirolimus.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06372</drugbank-id>
+            <name>Rilonacept</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Rilonacept.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06589</drugbank-id>
+            <name>Pazopanib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Pazopanib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06603</drugbank-id>
+            <name>Panobinostat</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Panobinostat.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06612</drugbank-id>
+            <name>Mepolizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Mepolizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06616</drugbank-id>
+            <name>Bosutinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Bosutinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06643</drugbank-id>
+            <name>Denosumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Denosumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06662</drugbank-id>
+            <name>Abetimus</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Abetimus.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06674</drugbank-id>
+            <name>Golimumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Golimumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06681</drugbank-id>
+            <name>Belatacept</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Belatacept.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06769</drugbank-id>
+            <name>Bendamustine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Bendamustine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06772</drugbank-id>
+            <name>Cabazitaxel</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Cabazitaxel.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06813</drugbank-id>
+            <name>Pralatrexate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Pralatrexate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08059</drugbank-id>
+            <name>Wortmannin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Wortmannin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08868</drugbank-id>
+            <name>Fingolimod</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fingolimod.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08870</drugbank-id>
+            <name>Brentuximab vedotin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Brentuximab vedotin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08871</drugbank-id>
+            <name>Eribulin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Eribulin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08877</drugbank-id>
+            <name>Ruxolitinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ruxolitinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08879</drugbank-id>
+            <name>Belimumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Belimumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08880</drugbank-id>
+            <name>Teriflunomide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Teriflunomide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08889</drugbank-id>
+            <name>Carfilzomib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Carfilzomib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08895</drugbank-id>
+            <name>Tofacitinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Tofacitinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08901</drugbank-id>
+            <name>Ponatinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ponatinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08904</drugbank-id>
+            <name>Certolizumab pegol</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Certolizumab pegol.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08908</drugbank-id>
+            <name>Dimethyl fumarate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Dimethyl fumarate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08910</drugbank-id>
+            <name>Pomalidomide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Pomalidomide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08935</drugbank-id>
+            <name>Obinutuzumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Obinutuzumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09029</drugbank-id>
+            <name>Secukinumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Secukinumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09033</drugbank-id>
+            <name>Vedolizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Vedolizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09036</drugbank-id>
+            <name>Siltuximab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Siltuximab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09052</drugbank-id>
+            <name>Blinatumomab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Blinatumomab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09053</drugbank-id>
+            <name>Ibrutinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ibrutinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09054</drugbank-id>
+            <name>Idelalisib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Idelalisib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09073</drugbank-id>
+            <name>Palbociclib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Palbociclib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09074</drugbank-id>
+            <name>Olaparib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Olaparib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09077</drugbank-id>
+            <name>Dinutuximab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Dinutuximab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09082</drugbank-id>
+            <name>Vilanterol</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Vilanterol.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09122</drugbank-id>
+            <name>Peginterferon beta-1a</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Peginterferon beta-1a.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09312</drugbank-id>
+            <name>Antilymphocyte immunoglobulin (horse)</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Antilymphocyte immunoglobulin (horse).
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11466</drugbank-id>
+            <name>Tepoxalin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Tepoxalin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11569</drugbank-id>
+            <name>Ixekizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ixekizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11580</drugbank-id>
+            <name>Ravulizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ravulizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11616</drugbank-id>
+            <name>Pirarubicin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Pirarubicin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11693</drugbank-id>
+            <name>Voclosporin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Voclosporin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11708</drugbank-id>
+            <name>Peficitinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Peficitinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11767</drugbank-id>
+            <name>Sarilumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Sarilumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11776</drugbank-id>
+            <name>Brodalumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Brodalumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11803</drugbank-id>
+            <name>Sirukumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Sirukumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11817</drugbank-id>
+            <name>Baricitinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Baricitinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11834</drugbank-id>
+            <name>Guselkumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Guselkumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11988</drugbank-id>
+            <name>Ocrelizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ocrelizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12025</drugbank-id>
+            <name>Triptolide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Triptolide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12371</drugbank-id>
+            <name>Siponimod</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Siponimod.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12612</drugbank-id>
+            <name>Ozanimod</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ozanimod.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12617</drugbank-id>
+            <name>Mizoribine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Mizoribine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12692</drugbank-id>
+            <name>Gusperimus</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Gusperimus.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12814</drugbank-id>
+            <name>Cepeginterferon alfa-2B</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Cepeginterferon alfa-2B.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12902</drugbank-id>
+            <name>Trofosfamide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Trofosfamide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12947</drugbank-id>
+            <name>Doxifluridine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Doxifluridine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12991</drugbank-id>
+            <name>Deoxyspergualin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Deoxyspergualin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12996</drugbank-id>
+            <name>Acteoside</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Acteoside.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB13014</drugbank-id>
+            <name>Hypericin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Hypericin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB13068</drugbank-id>
+            <name>9-(N-methyl-L-isoleucine)-cyclosporin A</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                9-(N-methyl-L-isoleucine)-cyclosporin A.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB13241</drugbank-id>
+            <name>Begelomab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Begelomab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14066</drugbank-id>
+            <name>Tetrandrine</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Tetrandrine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14219</drugbank-id>
+            <name>Monomethyl fumarate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Monomethyl fumarate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14724</drugbank-id>
+            <name>Emapalumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Emapalumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14762</drugbank-id>
+            <name>Risankizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Risankizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14919</drugbank-id>
+            <name>Rozanolixizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Rozanolixizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB15253</drugbank-id>
+            <name>Bleselumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Bleselumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB15091</drugbank-id>
+            <name>Upadacitinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Upadacitinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12016</drugbank-id>
+            <name>Ponesimod</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ponesimod.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00324</drugbank-id>
+            <name>Fluorometholone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluorometholone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00394</drugbank-id>
+            <name>Beclomethasone dipropionate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Beclomethasone dipropionate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00547</drugbank-id>
+            <name>Desoximetasone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Desoximetasone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00588</drugbank-id>
+            <name>Fluticasone propionate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluticasone propionate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00591</drugbank-id>
+            <name>Fluocinolone acetonide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluocinolone acetonide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00663</drugbank-id>
+            <name>Flumethasone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Flumethasone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00764</drugbank-id>
+            <name>Mometasone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Mometasone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01013</drugbank-id>
+            <name>Clobetasol propionate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Clobetasol propionate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01047</drugbank-id>
+            <name>Fluocinonide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluocinonide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01410</drugbank-id>
+            <name>Ciclesonide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ciclesonide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB03451</drugbank-id>
+            <name>Lexacalcitol</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Lexacalcitol.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08906</drugbank-id>
+            <name>Fluticasone furoate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluticasone furoate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08970</drugbank-id>
+            <name>Fluprednidene</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluprednidene.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB08971</drugbank-id>
+            <name>Fluocortolone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluocortolone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09091</drugbank-id>
+            <name>Tixocortol</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Tixocortol.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09095</drugbank-id>
+            <name>Difluocortolone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Difluocortolone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11487</drugbank-id>
+            <name>Dexamethasone isonicotinate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Dexamethasone isonicotinate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB13223</drugbank-id>
+            <name>Fluocortin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluocortin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB13491</drugbank-id>
+            <name>Fluperolone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluperolone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB13856</drugbank-id>
+            <name>Fluclorolone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluclorolone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB13867</drugbank-id>
+            <name>Fluticasone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluticasone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14512</drugbank-id>
+            <name>Mometasone furoate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Mometasone furoate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14539</drugbank-id>
+            <name>Hydrocortisone acetate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Hydrocortisone acetate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14540</drugbank-id>
+            <name>Hydrocortisone butyrate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Hydrocortisone butyrate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14545</drugbank-id>
+            <name>Hydrocortisone succinate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Hydrocortisone succinate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB15628</drugbank-id>
+            <name>Inolimomab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Inolimomab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB15646</drugbank-id>
+            <name>Fasitibant</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fasitibant.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00180</drugbank-id>
+            <name>Flunisolide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Flunisolide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00443</drugbank-id>
+            <name>Betamethasone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Betamethasone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00620</drugbank-id>
+            <name>Triamcinolone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Triamcinolone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00635</drugbank-id>
+            <name>Prednisone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Prednisone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00687</drugbank-id>
+            <name>Fludrocortisone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fludrocortisone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00741</drugbank-id>
+            <name>Hydrocortisone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Hydrocortisone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00860</drugbank-id>
+            <name>Prednisolone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Prednisolone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00959</drugbank-id>
+            <name>Methylprednisolone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Methylprednisolone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01108</drugbank-id>
+            <name>Trilostane</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Trilostane.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01222</drugbank-id>
+            <name>Budesonide</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Budesonide.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01234</drugbank-id>
+            <name>Dexamethasone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Dexamethasone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01285</drugbank-id>
+            <name>Corticotropin</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Corticotropin.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01380</drugbank-id>
+            <name>Cortisone acetate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Cortisone acetate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB01384</drugbank-id>
+            <name>Paramethasone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Paramethasone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB04630</drugbank-id>
+            <name>Aldosterone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Aldosterone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09378</drugbank-id>
+            <name>Fluprednisolone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Fluprednisolone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB09383</drugbank-id>
+            <name>Meprednisone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Meprednisone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11529</drugbank-id>
+            <name>Melengestrol</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Melengestrol.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11921</drugbank-id>
+            <name>Deflazacort</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Deflazacort.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB13003</drugbank-id>
+            <name>Cortivazol</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Cortivazol.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB13208</drugbank-id>
+            <name>Prednylidene</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Prednylidene.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB13843</drugbank-id>
+            <name>Cloprednol</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Cloprednol.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14681</drugbank-id>
+            <name>Cortisone</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Cortisone.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14039</drugbank-id>
+            <name>Erenumab</name>
+            <description>The risk or severity of adverse effects can be increased when Erenumab is combined with
+                Rotavirus vaccine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB00277</drugbank-id>
+            <name>Theophylline</name>
+            <description>The serum concentration of Theophylline can be increased when it is combined with Rotavirus
+                vaccine.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB15119</drugbank-id>
+            <name>Ropeginterferon alfa-2b</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ropeginterferon alfa-2b.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB15434</drugbank-id>
+            <name>Mosunetuzumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Mosunetuzumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB15626</drugbank-id>
+            <name>Spesolimab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Spesolimab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB16650</drugbank-id>
+            <name>Deucravacitinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Deucravacitinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06650</drugbank-id>
+            <name>Ofatumumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Ofatumumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB06343</drugbank-id>
+            <name>Teprotumumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Teprotumumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB11976</drugbank-id>
+            <name>Anifrolumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Anifrolumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12530</drugbank-id>
+            <name>Inebilizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Inebilizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB12917</drugbank-id>
+            <name>Bimekizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Bimekizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14783</drugbank-id>
+            <name>Diroximel fumarate</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Diroximel fumarate.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB14845</drugbank-id>
+            <name>Filgotinib</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Filgotinib.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB15762</drugbank-id>
+            <name>Satralizumab</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Satralizumab.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB16694</drugbank-id>
+            <name>Pegcetacoplan</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Pegcetacoplan.
+            </description>
+        </drug-interaction>
+        <drug-interaction>
+            <drugbank-id>DB16703</drugbank-id>
+            <name>Belumosudil</name>
+            <description>The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with
+                Belumosudil.
+            </description>
+        </drug-interaction>
+    </drug-interactions>
+    <sequences/>
+    <experimental-properties/>
+    <external-identifiers>
+        <external-identifier>
+            <resource>Drugs Product Database (DPD)</resource>
+            <identifier>19827</identifier>
+        </external-identifier>
+        <external-identifier>
+            <resource>Drugs Product Database (DPD)</resource>
+            <identifier>19828</identifier>
+        </external-identifier>
+        <external-identifier>
+            <resource>Drugs Product Database (DPD)</resource>
+            <identifier>19829</identifier>
+        </external-identifier>
+        <external-identifier>
+            <resource>Drugs Product Database (DPD)</resource>
+            <identifier>19830</identifier>
+        </external-identifier>
+        <external-identifier>
+            <resource>Drugs Product Database (DPD)</resource>
+            <identifier>19831</identifier>
+        </external-identifier>
+        <external-identifier>
+            <resource>Drugs Product Database (DPD)</resource>
+            <identifier>20167</identifier>
+        </external-identifier>
+        <external-identifier>
+            <resource>PubChem Substance</resource>
+            <identifier>347910468</identifier>
+        </external-identifier>
+        <external-identifier>
+            <resource>Wikipedia</resource>
+            <identifier>Rotavirus_vaccine</identifier>
+        </external-identifier>
+    </external-identifiers>
+    <external-links/>
+    <pathways/>
+    <reactions/>
+    <snp-effects/>
+    <snp-adverse-drug-reactions/>
+    <targets/>
+    <enzymes/>
+    <carriers/>
+    <transporters/>
+</drug>
