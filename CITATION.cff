@@ -3,6 +3,6 @@ message: "If you use this software, please cite it as below."
 title: "DrugBank Downloader"
 authors:
   - name: "Charles Tapley Hoyt"
-version: 0.2.0
+version: 0.2.1-dev
 doi:
 url: "https://github.com/cthoyt/drugbank-downloader"
