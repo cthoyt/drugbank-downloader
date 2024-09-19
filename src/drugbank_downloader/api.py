@@ -99,6 +99,7 @@ def download_drugbank(
 
     :raises ImportError: If no version is specified and :mod:`bioversions`
         is not installed
+    :raises RuntimeError: If the credentials are invalid or not yet approved
     """
     if version is None:
         try:
