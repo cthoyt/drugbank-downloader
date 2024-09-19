@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "drugbank_downloader"
-version = "0.2.0-dev"
+version = "0.2.0"
 description = "A tool for reproducibly downloading and extracting DrugBank data"
 readme = "README.md"
 authors = [
