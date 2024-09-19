@@ -27,6 +27,9 @@
         <img src='https://img.shields.io/badge/code%20style-black-000000.svg' alt='Code style: black' /></a>
     <a href="https://github.com/cthoyt/drugbank-downloader/blob/main/.github/CODE_OF_CONDUCT.md">
         <img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg" alt="Contributor Covenant"/></a>
+    <a href="https://zenodo.org/doi/10.5281/zenodo.4321184">
+        <img src="https://zenodo.org/badge/321374043.svg" alt="DOI">
+    </a>
 </p>
 
 Don't worry about DrugBank licensing and distribution rules - just use ``drugbank_downloader`` to write code that knows
