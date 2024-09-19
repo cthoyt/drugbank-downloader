@@ -1,23 +1,16 @@
-# -*- coding: utf-8 -*-
-
 """Implementation of :mod:`drugbank_downloader`."""
 
 import contextlib
 import logging
+import xml.etree.ElementTree
 import zipfile
+from collections.abc import Generator, Sequence
 from pathlib import Path
 from textwrap import dedent
-from typing import TYPE_CHECKING, Optional, Sequence, Union
+from typing import IO, Optional, Union, cast
 
+from lxml import etree as ElementTree  # noqa: N812
 from pystow import ensure, get_config
-
-try:
-    from lxml import etree as ElementTree  # noqa:S410,N812
-except ImportError:
-    from xml.etree import ElementTree  # noqa:S405
-
-if TYPE_CHECKING:
-    import xml.etree.ElementTree  # noqa:S405
 
 __all__ = [
     "get_drugbank_root",
@@ -35,7 +28,7 @@ def get_drugbank_root(
     version: Optional[str] = None,
     prefix: Optional[Sequence[str]] = None,
 ) -> "xml.etree.ElementTree.Element":
-    """Download, open, and parse the given version of DrugBank with :class:`xml.etree.ElementTree` then get its root."""
+    """Download, open, and parse the XML of a given version of DrugBank then get its root."""
     element_tree = parse_drugbank(
         username=username, password=password, version=version, prefix=prefix
     )
@@ -48,14 +41,14 @@ def parse_drugbank(
     version: Optional[str] = None,
     prefix: Optional[Sequence[str]] = None,
 ) -> "xml.etree.ElementTree.ElementTree":
-    """Download, open, and parse the given version of DrugBank with :class:`xml.etree.ElementTree`."""
+    """Download, open, and parse the XML of a given version of DrugBank."""
     with open_drugbank(
         version=version, username=username, password=password, prefix=prefix
     ) as file:
         logger.info("loading DrugBank XML")
-        tree = ElementTree.parse(file)  # noqa:S314
+        tree = ElementTree.parse(file)  # noqa:S320
         logger.info("done parsing DrugBank XML")
-    return tree
+    return tree  # type:ignore
 
 
 @contextlib.contextmanager
@@ -64,7 +57,7 @@ def open_drugbank(
     password: Optional[str] = None,
     version: Optional[str] = None,
     prefix: Optional[Sequence[str]] = None,
-):
+) -> Generator[IO[bytes], None, None]:
     """Download the given version of DrugBank and open it up with :mod:`zipfile`."""
     path = download_drugbank(version=version, username=username, password=password, prefix=prefix)
     with zipfile.ZipFile(path) as zip_file:
@@ -107,7 +100,7 @@ def download_drugbank(
         except ImportError:
             raise ImportError(
                 "must first `pip install bioversions` to get latest DrugBank version automatically"
-            )
+            ) from None
         else:
             version = bioversions.get_version("drugbank")
 
@@ -128,11 +121,11 @@ def download_drugbank(
         version,
         url=url,
         name="full database.xml.zip",
-        download_kwargs=dict(
-            backend="requests",
-            stream=True,
-            auth=(username, password),
-        ),
+        download_kwargs={
+            "backend": "requests",
+            "stream": True,
+            "auth": (username, password),
+        },
         force=force,
     )
 
@@ -164,4 +157,4 @@ def download_drugbank(
             )
         )
 
-    return path
+    return cast(Path, path)

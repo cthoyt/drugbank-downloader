@@ -1,0 +1,25 @@
+{
+  "template": "https://github.com/cthoyt/cookiecutter-snekpack",
+  "commit": "37a68560b5e9b2ef4456e354e45d31c3a84e8e64",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "package_name": "drugbank_downloader",
+      "package_name_stylized": "DrugBank Downloader",
+      "short_description": "A tool for reproducibly downloading and extracting DrugBank data",
+      "author_name": "Charles Tapley Hoyt",
+      "author_email": "cthoyt@gmail.com",
+      "github_organization_name": "cthoyt",
+      "github_repository_name": "drugbank-downloader",
+      "command_line_interface": true,
+      "gitlab": false,
+      "runner": "tox",
+      "__runner": "tox -e",
+      "__runner_pip": "tox tox-uv",
+      "__runner_tests": "py",
+      "__gh_slug": "cthoyt/drugbank-downloader",
+      "_template": "https://github.com/cthoyt/cookiecutter-snekpack"
+    }
+  },
+  "directory": null
+}
