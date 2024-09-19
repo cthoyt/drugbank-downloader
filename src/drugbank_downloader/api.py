@@ -6,6 +6,7 @@ import contextlib
 import logging
 import zipfile
 from pathlib import Path
+from textwrap import dedent
 from typing import TYPE_CHECKING, Optional, Sequence, Union
 
 from pystow import ensure, get_config
@@ -98,6 +99,7 @@ def download_drugbank(
 
     :raises ImportError: If no version is specified and :mod:`bioversions`
         is not installed
+    :raises RuntimeError: If the credentials are invalid or not yet approved
     """
     if version is None:
         try:
@@ -121,7 +123,7 @@ def download_drugbank(
     username = get_config("drugbank", "username", passthrough=username, raise_on_missing=True)
     password = get_config("drugbank", "password", passthrough=password, raise_on_missing=True)
 
-    return ensure(
+    path = ensure(
         *prefix,
         version,
         url=url,
@@ -133,3 +135,33 @@ def download_drugbank(
         ),
         force=force,
     )
+
+    # the drugbank download file should be over 200 megabytes.
+    # if you don't have valid credentials, then you will get a
+    # html page (i.e., https://go.drugbank.com/releases/latest)
+    # that is only a few hundred kilobytes
+    size = path.stat().st_size
+    if size < 5 * 1024 * 1024:
+        path.unlink()
+        raise RuntimeError(
+            dedent(
+                f"""
+
+            Your DrugBank credentials were either invalid, or you
+            have not been approved for downloads.
+
+            Even after signing up for a DrugBank account and getting
+            a valid username/password combination, DrugBank still has
+            to manually approve your account to make an academic
+            download of its data.
+
+            You can tell if your credentials have not been approved by
+            visiting https://go.drugbank.com/releases/{version}#full.
+            If the download button says "Ineligible for download", then
+            you might need to contact DrugBank to get approved, e.g.,
+            via https://go.drugbank.com/contact.
+            """
+            )
+        )
+
+    return path
