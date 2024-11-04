@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/cthoyt/cookiecutter-snekpack",
-  "commit": "37a68560b5e9b2ef4456e354e45d31c3a84e8e64",
+  "commit": "3089b545d90ceb95f3e6bf354fad86e75c0c89dc",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -15,6 +15,7 @@
       "gitlab": false,
       "runner": "tox",
       "__runner": "tox -e",
+      "__runner_uv": "--with tox-uv tox -e",
       "__runner_pip": "tox tox-uv",
       "__runner_tests": "py",
       "__gh_slug": "cthoyt/drugbank-downloader",
