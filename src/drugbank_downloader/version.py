@@ -3,13 +3,15 @@
 Run with ``python -m drugbank_downloader.version``
 """
 
+from __future__ import annotations
+
 import os
 from subprocess import CalledProcessError, check_output
 
 __all__ = [
     "VERSION",
-    "get_version",
     "get_git_hash",
+    "get_version",
 ]
 
 VERSION = "0.2.1-dev"

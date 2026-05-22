@@ -1,5 +1,7 @@
 """Implementation of :mod:`drugbank_downloader`."""
 
+from __future__ import annotations
+
 import contextlib
 import logging
 import xml.etree.ElementTree
@@ -7,56 +9,59 @@ import zipfile
 from collections.abc import Generator, Sequence
 from pathlib import Path
 from textwrap import dedent
-from typing import IO, Optional, Union, cast
+from typing import IO
 
 from lxml import etree as ElementTree  # noqa: N812
 from pystow import ensure, get_config
 
 __all__ = [
-    "get_drugbank_root",
-    "parse_drugbank",
-    "open_drugbank",
     "download_drugbank",
+    "get_drugbank_root",
+    "open_drugbank",
+    "parse_drugbank",
 ]
 
 logger = logging.getLogger(__name__)
 
 
 def get_drugbank_root(
-    username: Optional[str] = None,
-    password: Optional[str] = None,
-    version: Optional[str] = None,
-    prefix: Optional[Sequence[str]] = None,
-) -> "xml.etree.ElementTree.Element":
+    username: str | None = None,
+    password: str | None = None,
+    version: str | None = None,
+    prefix: Sequence[str] | None = None,
+) -> xml.etree.ElementTree.Element[str]:
     """Download, open, and parse the XML of a given version of DrugBank then get its root."""
     element_tree = parse_drugbank(
         username=username, password=password, version=version, prefix=prefix
     )
-    return element_tree.getroot()
+    rv = element_tree.getroot()
+    if rv is None:
+        raise ValueError
+    return rv
 
 
 def parse_drugbank(
-    username: Optional[str] = None,
-    password: Optional[str] = None,
-    version: Optional[str] = None,
-    prefix: Optional[Sequence[str]] = None,
-) -> "xml.etree.ElementTree.ElementTree":
+    username: str | None = None,
+    password: str | None = None,
+    version: str | None = None,
+    prefix: Sequence[str] | None = None,
+) -> xml.etree.ElementTree.ElementTree:
     """Download, open, and parse the XML of a given version of DrugBank."""
     with open_drugbank(
         version=version, username=username, password=password, prefix=prefix
     ) as file:
         logger.info("loading DrugBank XML")
-        tree = ElementTree.parse(file)  # noqa:S320
+        tree = ElementTree.parse(file)
         logger.info("done parsing DrugBank XML")
     return tree  # type:ignore
 
 
 @contextlib.contextmanager
 def open_drugbank(
-    username: Optional[str] = None,
-    password: Optional[str] = None,
-    version: Optional[str] = None,
-    prefix: Optional[Sequence[str]] = None,
+    username: str | None = None,
+    password: str | None = None,
+    version: str | None = None,
+    prefix: Sequence[str] | None = None,
 ) -> Generator[IO[bytes], None, None]:
     """Download the given version of DrugBank and open it up with :mod:`zipfile`."""
     path = download_drugbank(version=version, username=username, password=password, prefix=prefix)
@@ -66,32 +71,27 @@ def open_drugbank(
 
 
 def download_drugbank(
-    username: Optional[str] = None,
-    password: Optional[str] = None,
-    version: Optional[str] = None,
-    prefix: Union[None, str, Sequence[str]] = None,
+    username: str | None = None,
+    password: str | None = None,
+    version: str | None = None,
+    prefix: None | str | Sequence[str] = None,
     force: bool = False,
 ) -> Path:
     """Download the given version of DrugBank.
 
-    :param username:
-        The DrugBank username. If not passed, looks up in the environment
+    :param username: The DrugBank username. If not passed, looks up in the environment
         ``DRUGBANK_USERNAME``. If not found, raises a ValueError.
-    :param password:
-        The DrugBank password. If not passed, looks up in the environment
+    :param password: The DrugBank password. If not passed, looks up in the environment
         ``DRUGBANK_PASSWORD``. If not found, raises a ValueError.
-    :param version:
-        The DrugBank version. If not passed, uses :mod:`bioversions` to
-        look up the most recent version.
-    :param prefix:
-        The prefix and subkeys passed to :func:`pystow.ensure` to specify
-        a non-default location to download the data to.
-    :param force:
-        Should the data be re-downloaded, even if it exists?
+    :param version: The DrugBank version. If not passed, uses :mod:`bioversions` to look up the most
+        recent version.
+    :param prefix: The prefix and subkeys passed to :func:`pystow.ensure` to specify a non-default
+        location to download the data to.
+    :param force: Should the data be re-downloaded, even if it exists?
+
     :returns: The path to the local DrugBank file after it's been downloaded
 
-    :raises ImportError: If no version is specified and :mod:`bioversions`
-        is not installed
+    :raises ImportError: If no version is specified and :mod:`bioversions` is not installed
     :raises RuntimeError: If the credentials are invalid or not yet approved
     """
     if version is None:
@@ -105,7 +105,7 @@ def download_drugbank(
             version = bioversions.get_version("drugbank")
 
     url = (
-        f'https://go.drugbank.com/releases/{version.replace(".", "-")}/downloads/all-full-database'
+        f"https://go.drugbank.com/releases/{version.replace('.', '-')}/downloads/all-full-database"
     )
 
     if prefix is None:
@@ -130,8 +130,8 @@ def download_drugbank(
     )
 
     # the drugbank download file should be over 200 megabytes.
-    # if you don't have valid credentials, then you will get a
-    # html page (i.e., https://go.drugbank.com/releases/latest)
+    # if you don't have valid credentials, then you will get an
+    # HTML page (i.e., https://go.drugbank.com/releases/latest)
     # that is only a few hundred kilobytes
     size = path.stat().st_size
     if size < 5 * 1024 * 1024:
@@ -157,4 +157,4 @@ def download_drugbank(
             )
         )
 
-    return cast(Path, path)
+    return path
