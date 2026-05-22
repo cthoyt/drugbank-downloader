@@ -27,7 +27,7 @@ def get_drugbank_root(
     password: Optional[str] = None,
     version: Optional[str] = None,
     prefix: Optional[Sequence[str]] = None,
-) -> "xml.etree.ElementTree.Element":
+) -> "xml.etree.ElementTree.Element[str]":
     """Download, open, and parse the XML of a given version of DrugBank then get its root."""
     element_tree = parse_drugbank(
         username=username, password=password, version=version, prefix=prefix
@@ -46,7 +46,7 @@ def parse_drugbank(
         version=version, username=username, password=password, prefix=prefix
     ) as file:
         logger.info("loading DrugBank XML")
-        tree = ElementTree.parse(file)  # noqa:S320
+        tree = ElementTree.parse(file)
         logger.info("done parsing DrugBank XML")
     return tree  # type:ignore
 
