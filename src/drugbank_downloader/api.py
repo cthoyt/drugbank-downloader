@@ -79,24 +79,19 @@ def download_drugbank(
 ) -> Path:
     """Download the given version of DrugBank.
 
-    :param username:
-        The DrugBank username. If not passed, looks up in the environment
+    :param username: The DrugBank username. If not passed, looks up in the environment
         ``DRUGBANK_USERNAME``. If not found, raises a ValueError.
-    :param password:
-        The DrugBank password. If not passed, looks up in the environment
+    :param password: The DrugBank password. If not passed, looks up in the environment
         ``DRUGBANK_PASSWORD``. If not found, raises a ValueError.
-    :param version:
-        The DrugBank version. If not passed, uses :mod:`bioversions` to
-        look up the most recent version.
-    :param prefix:
-        The prefix and subkeys passed to :func:`pystow.ensure` to specify
-        a non-default location to download the data to.
-    :param force:
-        Should the data be re-downloaded, even if it exists?
+    :param version: The DrugBank version. If not passed, uses :mod:`bioversions` to look up the most
+        recent version.
+    :param prefix: The prefix and subkeys passed to :func:`pystow.ensure` to specify a non-default
+        location to download the data to.
+    :param force: Should the data be re-downloaded, even if it exists?
+
     :returns: The path to the local DrugBank file after it's been downloaded
 
-    :raises ImportError: If no version is specified and :mod:`bioversions`
-        is not installed
+    :raises ImportError: If no version is specified and :mod:`bioversions` is not installed
     :raises RuntimeError: If the credentials are invalid or not yet approved
     """
     if version is None:
