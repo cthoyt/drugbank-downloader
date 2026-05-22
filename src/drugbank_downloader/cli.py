@@ -24,7 +24,7 @@ from .api import download_drugbank
 @click.option("--username")
 @click.option("--password")
 @click.option("-f", "--force", is_flag=True)
-@verbose_option  # type:ignore[misc]
+@verbose_option
 def main(version: str, username: str, password: str, force: bool) -> None:
     """Download DrugBank."""
     path = download_drugbank(

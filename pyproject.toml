@@ -27,17 +27,19 @@ classifiers = [
     "Framework :: tox",
     "Framework :: Sphinx",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: 3 :: Only",
-    # TODO add your topics from the Trove controlled vocabulary (see https://pypi.org/classifiers)
 ]
 keywords = [
     "snekpack", # please keep this keyword to credit the cookiecutter-snekpack template
     "cookiecutter",
-    # TODO add your own free-text keywords
+    "drugbank",
+    "chemogenomics",
+    "clinical trials",
 ]
 
 # License Information. This can be any valid SPDX identifiers that can be resolved
@@ -49,8 +51,7 @@ requires-python = ">=3.9"
 dependencies = [
     "pystow",
     "click",
-    "more_click",
-    "bioversions",
+    "more-click",
     "lxml",
 ]
 
@@ -62,15 +63,10 @@ tests = [
 docs = [
     # waiting on https://github.com/readthedocs/sphinx_rtd_theme/issues/1582
     # to make sphinx 8 possible
-    "sphinx<8",
+    "sphinx",
     "sphinx-rtd-theme",
     "sphinx-click", 
-    "sphinx_automodapi",
-    # Include if your project uses Pydantic:
-    # "autodoc_pydantic",
-    # To include LaTeX comments easily in your docs.
-    # If you uncomment this, don't forget to do the same in docs/conf.py
-    # texext
+    "sphinx-automodapi",
 ]
 
 # See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#urls
