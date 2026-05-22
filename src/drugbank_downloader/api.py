@@ -7,7 +7,7 @@ import zipfile
 from collections.abc import Generator, Sequence
 from pathlib import Path
 from textwrap import dedent
-from typing import IO, Optional, Union
+from typing import IO
 
 from lxml import etree as ElementTree  # noqa: N812
 from pystow import ensure, get_config
@@ -23,10 +23,10 @@ logger = logging.getLogger(__name__)
 
 
 def get_drugbank_root(
-    username: Optional[str] = None,
-    password: Optional[str] = None,
-    version: Optional[str] = None,
-    prefix: Optional[Sequence[str]] = None,
+    username: str | None = None,
+    password: str | None = None,
+    version: str | None = None,
+    prefix: Sequence[str] | None = None,
 ) -> "xml.etree.ElementTree.Element[str]":
     """Download, open, and parse the XML of a given version of DrugBank then get its root."""
     element_tree = parse_drugbank(
@@ -39,10 +39,10 @@ def get_drugbank_root(
 
 
 def parse_drugbank(
-    username: Optional[str] = None,
-    password: Optional[str] = None,
-    version: Optional[str] = None,
-    prefix: Optional[Sequence[str]] = None,
+    username: str | None = None,
+    password: str | None = None,
+    version: str | None = None,
+    prefix: Sequence[str] | None = None,
 ) -> "xml.etree.ElementTree.ElementTree":
     """Download, open, and parse the XML of a given version of DrugBank."""
     with open_drugbank(
@@ -56,10 +56,10 @@ def parse_drugbank(
 
 @contextlib.contextmanager
 def open_drugbank(
-    username: Optional[str] = None,
-    password: Optional[str] = None,
-    version: Optional[str] = None,
-    prefix: Optional[Sequence[str]] = None,
+    username: str | None = None,
+    password: str | None = None,
+    version: str | None = None,
+    prefix: Sequence[str] | None = None,
 ) -> Generator[IO[bytes], None, None]:
     """Download the given version of DrugBank and open it up with :mod:`zipfile`."""
     path = download_drugbank(version=version, username=username, password=password, prefix=prefix)
@@ -69,10 +69,10 @@ def open_drugbank(
 
 
 def download_drugbank(
-    username: Optional[str] = None,
-    password: Optional[str] = None,
-    version: Optional[str] = None,
-    prefix: Union[None, str, Sequence[str]] = None,
+    username: str | None = None,
+    password: str | None = None,
+    version: str | None = None,
+    prefix: None | str | Sequence[str] = None,
     force: bool = False,
 ) -> Path:
     """Download the given version of DrugBank.
