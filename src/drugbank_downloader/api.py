@@ -194,7 +194,9 @@ def _get_failure_message(version: str) -> str:
 
         3. Your credentials are academic. As of 2026, DrugBank has temporarily
            halted distributing their data to academics. See the message at
-           https://go.drugbank.com/releases/latest
+           https://go.drugbank.com/releases/latest and discussion for how that
+           impacts drugbank-downloader at
+           https://github.com/cthoyt/drugbank-downloader/issues/23
 
         Note, `drugbank-downloader` is a third party, open source software
         package that is not affiliated with DrugBank.

@@ -53,6 +53,7 @@ dependencies = [
     "click",
     "more-click",
     "lxml",
+    "requests",
 ]
 
 [project.optional-dependencies]
