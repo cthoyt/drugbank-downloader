@@ -32,7 +32,12 @@ USER_AGENT = f"drugbank-downloader v{get_version()}"
 
 
 def _get_version(auth: tuple[str, str]) -> str:
-    """Get the latest DrugBank version."""
+    """Get the latest DrugBank version.
+
+    Based on the ``Querying Downloads`` section of
+    https://go.drugbank.com/releases/help, this should work,
+    but instead an anti-scraping mechanism gets returned.
+    """
     res = requests.get(VERSION_URL, timeout=5, auth=auth, headers={"User-Agent": USER_AGENT})
     res.raise_for_status()
     latest = max(res.json(), key=itemgetter("released_on"))
