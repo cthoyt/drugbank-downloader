@@ -1,5 +1,7 @@
 """Implementation of :mod:`drugbank_downloader`."""
 
+from __future__ import annotations
+
 import contextlib
 import logging
 import xml.etree.ElementTree
@@ -27,7 +29,7 @@ def get_drugbank_root(
     password: str | None = None,
     version: str | None = None,
     prefix: Sequence[str] | None = None,
-) -> "xml.etree.ElementTree.Element[str]":
+) -> xml.etree.ElementTree.Element[str]:
     """Download, open, and parse the XML of a given version of DrugBank then get its root."""
     element_tree = parse_drugbank(
         username=username, password=password, version=version, prefix=prefix
@@ -43,7 +45,7 @@ def parse_drugbank(
     password: str | None = None,
     version: str | None = None,
     prefix: Sequence[str] | None = None,
-) -> "xml.etree.ElementTree.ElementTree":
+) -> xml.etree.ElementTree.ElementTree:
     """Download, open, and parse the XML of a given version of DrugBank."""
     with open_drugbank(
         version=version, username=username, password=password, prefix=prefix

@@ -13,6 +13,8 @@ later, but that will cause problems--the code will get executed twice:
 .. seealso:: https://click.palletsprojects.com/en/8.1.x/setuptools/#setuptools-integration
 """
 
+from __future__ import annotations
+
 import click
 from more_click import verbose_option
 
