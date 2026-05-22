@@ -42,11 +42,16 @@ automatically.
 > able to download DrugBank using this (or any other) software.
 >
 > Unfortunately, the maintainers of this package are academics and therefore can
-> not get access to the data, so it's not possible for us to verify if the
-> software still works as intended. If you have valid credentials or a copy of
-> the latest version of DrugBank that you can share privately for testing
-> purposes, please get in touch. Theoretically, since DrugBank is licensed under
-> CC BY-NC 4.0, this should be allowed.
+> not get access to the data, so it's not possible for us to verify if
+> `drugbank-downloader` still works as intended for newer versions of the data.
+>
+> If you have valid credentials or a copy of the latest version of DrugBank that
+> you can share privately for testing purposes, please get in touch. DrugBank is
+> licensed under CC BY-NC 4.0, so to the maintainers best knowledge, sharing
+> should be allowed (keep in mind, we're not lawyers).
+>
+> Discussion about how this affects `drugbank-downloader` can be found here:
+> https://github.com/cthoyt/drugbank-downloader/issues/23
 
 ## Installation
 
