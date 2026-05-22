@@ -34,9 +34,8 @@ USER_AGENT = f"drugbank-downloader v{get_version()}"
 def _get_version(auth: tuple[str, str]) -> str:
     """Get the latest DrugBank version.
 
-    Based on the ``Querying Downloads`` section of
-    https://go.drugbank.com/releases/help, this should work,
-    but instead an anti-scraping mechanism gets returned.
+    Based on the ``Querying Downloads`` section of https://go.drugbank.com/releases/help, this
+    should work, but instead an anti-scraping mechanism gets returned.
     """
     res = requests.get(VERSION_URL, timeout=5, auth=auth, headers={"User-Agent": USER_AGENT})
     res.raise_for_status()
@@ -109,19 +108,15 @@ def download_drugbank(
 ) -> Path:
     """Download the given version of DrugBank.
 
-    :param username:
-        The DrugBank username. If not passed, looks up in the environment
+    :param username: The DrugBank username. If not passed, looks up in the environment
         ``DRUGBANK_USERNAME``. If not found, raises a ValueError.
-    :param password:
-        The DrugBank password. If not passed, looks up in the environment
+    :param password: The DrugBank password. If not passed, looks up in the environment
         ``DRUGBANK_PASSWORD``. If not found, raises a ValueError.
-    :param version:
-        The DrugBank version. If not passed, look up the most recent version.
-    :param prefix:
-        The prefix and subkeys passed to :func:`pystow.ensure` to specify
-        a non-default location to download the data to.
-    :param force:
-        Should the data be re-downloaded, even if it exists?
+    :param version: The DrugBank version. If not passed, look up the most recent version.
+    :param prefix: The prefix and subkeys passed to :func:`pystow.ensure` to specify a non-default
+        location to download the data to.
+    :param force: Should the data be re-downloaded, even if it exists?
+
     :returns: The path to the local DrugBank file after it's been downloaded
 
     :raises RuntimeError: If the credentials are invalid or not yet approved
