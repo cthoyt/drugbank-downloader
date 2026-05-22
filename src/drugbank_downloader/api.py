@@ -7,16 +7,16 @@ import zipfile
 from collections.abc import Generator, Sequence
 from pathlib import Path
 from textwrap import dedent
-from typing import IO, Optional, Union, cast
+from typing import IO, Optional, Union
 
 from lxml import etree as ElementTree  # noqa: N812
 from pystow import ensure, get_config
 
 __all__ = [
-    "get_drugbank_root",
-    "parse_drugbank",
-    "open_drugbank",
     "download_drugbank",
+    "get_drugbank_root",
+    "open_drugbank",
+    "parse_drugbank",
 ]
 
 logger = logging.getLogger(__name__)
@@ -32,7 +32,10 @@ def get_drugbank_root(
     element_tree = parse_drugbank(
         username=username, password=password, version=version, prefix=prefix
     )
-    return element_tree.getroot()
+    rv = element_tree.getroot()
+    if rv is None:
+        raise ValueError
+    return rv
 
 
 def parse_drugbank(
@@ -105,7 +108,7 @@ def download_drugbank(
             version = bioversions.get_version("drugbank")
 
     url = (
-        f'https://go.drugbank.com/releases/{version.replace(".", "-")}/downloads/all-full-database'
+        f"https://go.drugbank.com/releases/{version.replace('.', '-')}/downloads/all-full-database"
     )
 
     if prefix is None:
@@ -157,4 +160,4 @@ def download_drugbank(
             )
         )
 
-    return cast(Path, path)
+    return path
