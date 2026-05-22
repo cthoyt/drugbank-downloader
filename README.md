@@ -36,6 +36,23 @@ Don't worry about DrugBank licensing and distribution rules - just use
 `drugbank_downloader` to write code that knows how to download it and use it
 automatically.
 
+> [!WARNING]  
+> Update from May 2026 - DrugBank has temporarily paused academic downloads.
+> This means that even if you have valid academic credentials, you will not be
+> able to download DrugBank using this (or any other) software.
+>
+> Unfortunately, the maintainers of this package are academics and therefore can
+> not get access to the data, so it's not possible for us to verify if
+> `drugbank-downloader` still works as intended for newer versions of the data.
+>
+> If you have valid credentials or a copy of the latest version of DrugBank that
+> you can share privately for testing purposes, please get in touch. DrugBank is
+> licensed under CC BY-NC 4.0, so to the maintainers best knowledge, sharing
+> should be allowed (keep in mind, we're not lawyers).
+>
+> Discussion about how this affects `drugbank-downloader` can be found here:
+> https://github.com/cthoyt/drugbank-downloader/issues/23
+
 ## Installation
 
 ```bash
