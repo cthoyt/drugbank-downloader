@@ -8,7 +8,7 @@ from drugbank_downloader.version import get_version
 class TestVersion(unittest.TestCase):
     """Trivially test a version."""
 
-    def test_version_type(self):
+    def test_version_type(self) -> None:
         """Test the version is a string.
 
         This is only meant to be an example test.

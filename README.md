@@ -35,6 +35,9 @@
 Don't worry about DrugBank licensing and distribution rules - just use ``drugbank_downloader`` to write code that knows
 how to download it and use it automatically.
 
+> [!WARNING]  
+> Update from May 2026 - DrugBank has temporarily paused academic downloads. This means that if you have a 
+
 ## Installation
 
 ```bash
