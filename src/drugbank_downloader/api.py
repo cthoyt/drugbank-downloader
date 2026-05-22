@@ -1,5 +1,7 @@
 """Implementation of :mod:`drugbank_downloader`."""
 
+from __future__ import annotations
+
 import contextlib
 import logging
 import xml.etree.ElementTree
@@ -8,7 +10,7 @@ from collections.abc import Generator, Sequence
 from operator import itemgetter
 from pathlib import Path
 from textwrap import dedent
-from typing import IO, Optional, Union, cast
+from typing import IO, cast
 
 import pystow.utils
 import requests
@@ -45,11 +47,11 @@ def _get_version(auth: tuple[str, str]) -> str:
 
 def get_drugbank_root(
     *,
-    username: Optional[str] = None,
-    password: Optional[str] = None,
-    version: Optional[str] = None,
-    prefix: Optional[Sequence[str]] = None,
-) -> "xml.etree.ElementTree.Element[str]":
+    username: str | None = None,
+    password: str | None = None,
+    version: str | None = None,
+    prefix: Sequence[str] | None = None,
+) -> xml.etree.ElementTree.Element[str]:
     """Download, open, and parse the XML of a given version of DrugBank then get its root."""
     element_tree = parse_drugbank(
         username=username, password=password, version=version, prefix=prefix
@@ -62,11 +64,11 @@ def get_drugbank_root(
 
 def parse_drugbank(
     *,
-    username: Optional[str] = None,
-    password: Optional[str] = None,
-    version: Optional[str] = None,
-    prefix: Optional[Sequence[str]] = None,
-) -> "xml.etree.ElementTree.ElementTree":
+    username: str | None = None,
+    password: str | None = None,
+    version: str | None = None,
+    prefix: Sequence[str] | None = None,
+) -> xml.etree.ElementTree.ElementTree:
     """Download, open, and parse the XML of a given version of DrugBank."""
     with open_drugbank(
         version=version, username=username, password=password, prefix=prefix
@@ -80,10 +82,10 @@ def parse_drugbank(
 @contextlib.contextmanager
 def open_drugbank(
     *,
-    username: Optional[str] = None,
-    password: Optional[str] = None,
-    version: Optional[str] = None,
-    prefix: Optional[Sequence[str]] = None,
+    username: str | None = None,
+    password: str | None = None,
+    version: str | None = None,
+    prefix: Sequence[str] | None = None,
 ) -> Generator[IO[bytes], None, None]:
     """Download the given version of DrugBank and open it up with :mod:`zipfile`."""
     path = download_drugbank(version=version, username=username, password=password, prefix=prefix)
@@ -100,10 +102,10 @@ def _ensure_auth(username: str | None, password: str | None) -> tuple[str, str]:
 
 def download_drugbank(
     *,
-    username: Optional[str] = None,
-    password: Optional[str] = None,
-    version: Optional[str] = None,
-    prefix: Union[None, str, Sequence[str]] = None,
+    username: str | None = None,
+    password: str | None = None,
+    version: str | None = None,
+    prefix: None | str | Sequence[str] = None,
     force: bool = False,
 ) -> Path:
     """Download the given version of DrugBank.

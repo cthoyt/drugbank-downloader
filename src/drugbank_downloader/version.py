@@ -3,6 +3,8 @@
 Run with ``python -m drugbank_downloader.version``
 """
 
+from __future__ import annotations
+
 import os
 from subprocess import CalledProcessError, check_output
 
