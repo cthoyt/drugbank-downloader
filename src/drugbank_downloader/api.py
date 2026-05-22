@@ -130,8 +130,8 @@ def download_drugbank(
     )
 
     # the drugbank download file should be over 200 megabytes.
-    # if you don't have valid credentials, then you will get a
-    # html page (i.e., https://go.drugbank.com/releases/latest)
+    # if you don't have valid credentials, then you will get an
+    # HTML page (i.e., https://go.drugbank.com/releases/latest)
     # that is only a few hundred kilobytes
     size = path.stat().st_size
     if size < 5 * 1024 * 1024:
