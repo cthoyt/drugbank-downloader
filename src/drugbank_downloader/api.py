@@ -46,7 +46,6 @@ def _get_version(auth: tuple[str, str]) -> str:
 
 
 def get_drugbank_root(
-    *,
     username: str | None = None,
     password: str | None = None,
     version: str | None = None,
@@ -63,7 +62,6 @@ def get_drugbank_root(
 
 
 def parse_drugbank(
-    *,
     username: str | None = None,
     password: str | None = None,
     version: str | None = None,
@@ -81,7 +79,6 @@ def parse_drugbank(
 
 @contextlib.contextmanager
 def open_drugbank(
-    *,
     username: str | None = None,
     password: str | None = None,
     version: str | None = None,
@@ -101,7 +98,6 @@ def _ensure_auth(username: str | None, password: str | None) -> tuple[str, str]:
 
 
 def download_drugbank(
-    *,
     username: str | None = None,
     password: str | None = None,
     version: str | None = None,
